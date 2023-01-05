@@ -15,12 +15,12 @@ export const colorTokens = {
     1000: "#000000",
   },
   primary: {
-    50: "#E6FBFF",
+    50: "#a9d6e5", //: Light Hover
     100: "#CCF7FE",
     200: "#99EEFD",
     300: "#66E6FC",
     400: "#33DDFB",
-    500: "#00D5FA",
+    500: "#2c7da0", //: Light
     600: "#00A0BC",
     700: "#006B7D",
     800: "#00353F",
@@ -78,11 +78,11 @@ export const themeSettings = (mode) => {
       fontSize: 12,
       h1: {
         fontFamily: ["Rubik", "sans-serif"].join(","),
-        fontSize: 40,
+        fontSize: 36,
       },
       h2: {
         fontFamily: ["Rubik", "sans-serif"].join(","),
-        fontSize: 32,
+        fontSize: 30,
       },
       h3: {
         fontFamily: ["Rubik", "sans-serif"].join(","),
