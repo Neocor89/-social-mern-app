@@ -35,7 +35,7 @@ const NavBar = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = useSelector((state) => state.user);
-  const isNonMobileScreens  = useMediaQuery("(min-width: 500px)");
+  const isNonMobileScreens  = useMediaQuery("(min-width: 900px)");
   console.log(user);
 
   //: Configuration THEME
@@ -61,6 +61,7 @@ const NavBar = () => {
           fontWeight="bold"
           fontSize="clamp(1rem, 1.50rem, 2rem)"
           color="primary"
+          marginRight="32px"
           onClick={() => navigate("/home")}
           sx={{
             "&:hover": {
