@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-//: LOCAL STATE
 const initialState = {
   mode: "light",
   user: null,
@@ -8,7 +7,6 @@ const initialState = {
   posts: [],
 };
 
-//: REDUX DARK MODE MANGEMENT
 export const authSlice = createSlice({
   name: "auth",
   initialState,
@@ -28,7 +26,7 @@ export const authSlice = createSlice({
       if (state.user) {
         state.user.friends = action.payload.friends;
       } else {
-        console.error("user friends not exist :(");
+        console.error("user friends non-existent :(");
       }
     },
     setPosts: (state, action) => {
@@ -46,5 +44,4 @@ export const authSlice = createSlice({
 
 export const { setMode, setLogin, setLogout, setFriends, setPosts, setPost } =
   authSlice.actions;
-
 export default authSlice.reducer;

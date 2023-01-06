@@ -1,7 +1,5 @@
-//@js-ignore
 {
   "compilerOptions": {
     "baseUrl": "src"
-  },
-  "include": ["src"]
+  }
 }

@@ -15,12 +15,12 @@ export const colorTokens = {
     1000: "#000000",
   },
   primary: {
-    50: "#a9d6e5", //: Light Hover
+    50: "#B5179E", //: Light Hover
     100: "#CCF7FE",
     200: "#99EEFD",
     300: "#66E6FC",
     400: "#33DDFB",
-    500: "#2c7da0", //: Light
+    500: "#3F37C9", //: Light
     600: "#00A0BC",
     700: "#006B7D",
     800: "#00353F",
@@ -57,7 +57,7 @@ export const themeSettings = (mode) => {
             // palette values for light mode
             primary: {
               dark: colorTokens.primary[700],
-              main: colorTokens.primary[500],
+              main: colorTokens.primary[500], //: Light
               light: colorTokens.primary[50],
             },
             neutral: {
