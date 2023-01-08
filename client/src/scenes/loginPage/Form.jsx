@@ -202,7 +202,7 @@ const Form = () => {
                       p="1rem"
                       sx={{ "&:hover": { cursor: "pointer" } }}
                       >
-                        <input {...getInputProps() || ""} />
+                        <input {...getInputProps()} />
                         {!values.picture ? (
                           <p>Add a picture</p>
                         ) : (
